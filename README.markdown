@@ -1,16 +1,16 @@
-<h1>Simple Javascript Template (SJT)</h1>
+<h1>Srender to Simple Javascript Templating...</h1>
 
 This is a jQuery plugin for javascript templating adapted from <a href="http://ejohn.org/blog/javascript-micro-templating/">John Resig's classic templating blog post</a>. The code works mostly like Resig describes in that post with a few small change. The usage is as followings:
 
     var data = {foo : "bar"}
     var template = "my data: <%= data.foo %>"
-    console.log($.sjt(template, data));
+    console.log($.srender(template, data));
 
 If you pass it jQuerified element as the optional third argument, it will populate that element with the results thusly:
 
     var data = {foo : "bar"}
     var template = "my data: <%= data.foo %>"
-    $.sjt(template, data, $("h1"));
+    $.srender(template, data, $("h1"));
 
 You can also iterate through objects, do other command structures, and basically just run real javascript:
 
@@ -22,6 +22,8 @@ You can also iterate through objects, do other command structures, and basically
         <% } %>
     <% } %>
     ]]></r>).toString();
+    console.log($.srender(template, data));
+
 
 E4X is a nice choice to give a heredoc-style syntax to the templates. For more on E4X, check out <a href="http://tinyurl.com/ca4l7m">this excellent resource</a>.
 
