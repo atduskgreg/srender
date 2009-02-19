@@ -24,3 +24,11 @@ You can also iterate through objects, do other command structures, and basically
     ]]></r>).toString();
 
 E4X is a nice choice to give a heredoc-style syntax to the templates. For more on E4X, check out <a href="http://tinyurl.com/ca4l7m">this excellent resource</a>.
+
+Or, if you're a sissy who runs a browser that can't handle E4X, the '\' escaped new line syntax isn't too bad either:
+
+    var template = '<% for ( var i = 0; i < data.length; i++ ) { %>\
+                      <% if(data[i] != 2 ){ %>\
+                        <li><%= data[i] %></li>\
+                        <% } %>\
+                    <% } %>'
