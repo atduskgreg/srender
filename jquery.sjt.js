@@ -1,5 +1,7 @@
 // Simple JavaScript Templating
 // John Resig - http://ejohn.org/ - MIT Licensed
+// adapted from: http://ejohn.org/blog/javascript-micro-templating/
+// by Greg Borenstein http://ideasfordozens.com in Feb 2009
 jQuery.sjt = {
   cache : {},
   // target is an optional element; if provided, the result will be inserted into it
