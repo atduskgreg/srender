@@ -1,8 +1,7 @@
 <h1>Srender to Simple Javascript Templating...</h1>
 
-
-<p style="float:left; margin: 10px"><img src="http://farm1.static.flickr.com/61/199570946_385bf69e9f.jpg" style="width:250px" />
-photo by <a href="http://flickr.com/photos/kiddharma/199570946/">kiddharma</a></p>
+<img src="http://farm1.static.flickr.com/61/199570946_385bf69e9f.jpg" width="250px" />
+photo by <a href="http://flickr.com/photos/kiddharma/199570946/">kiddharma</a>
 
 This is a jQuery plugin for javascript templating adapted from <a href="http://ejohn.org/blog/javascript-micro-templating/">John Resig's classic templating blog post</a>. The code works mostly like Resig describes in that post with a few tiny changes. The usage is as follows:
 
